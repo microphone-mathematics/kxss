@@ -79,7 +79,7 @@ func main() {
                             "(", ")", "`", ":", "</",
                             "<s", "<h1>", "</script>",
                             "</script><script src=\/\/q.quas.sh/></script>",
-                            "</script><script/src='https:\/\/q.quas.sh/'></script>"
+                            "</script><script/src='https:\/\/q.quas.sh/'></script>",
                         } {
 			wasReflected, err := checkAppend(c.url, c.param, "aprefix"+char+"asuffix")
 			if err != nil {
